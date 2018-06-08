@@ -1,0 +1,11 @@
+<VirtualHost 127.0.0.6:80>
+  DocumentRoot "/opt/lampp/apps/TierraConsultores/tierra"
+  DirectoryIndex index.php
+
+  <Directory "/opt/lampp/apps/TierraConsultores/tierra">
+        Options All
+        AllowOverride All
+        Require all granted
+  </Directory>
+</VirtualHost>
+
