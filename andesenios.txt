@@ -1,8 +1,8 @@
 <VirtualHost 127.0.0.7:80>
-  DocumentRoot "/opt/lampp/apps/ingles/web"
+  DocumentRoot "/opt/lampp/apps/website/andesenios"
   DirectoryIndex index.php
 
-  <Directory "/opt/lampp/apps/ingles/web">
+  <Directory "/opt/lampp/apps/website/andesenios">
         Options All
         AllowOverride All
         Require all granted
