@@ -7,3 +7,9 @@ File to edit:
 
 After adding the file restart lamp:
 sudo /opt/lampp/lampp restart
+
+
+To start Xampp Manager
+sudo /opt/lampp/manager-linux-x64.run
+
+
