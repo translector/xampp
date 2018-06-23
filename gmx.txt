@@ -1,4 +1,4 @@
-<VirtualHost 127.0.0.5:80>
+<VirtualHost 127.0.0.4:80>
   DocumentRoot "/opt/lampp/apps/website/gmx"
   DirectoryIndex index.php
 
