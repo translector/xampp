@@ -1,0 +1,10 @@
+<VirtualHost 127.0.0.5:80>
+  DocumentRoot "/opt/lampp/apps/website/gmx"
+  DirectoryIndex index.php
+
+  <Directory "/opt/lampp/apps/website/gmx">
+        Options All
+        AllowOverride All
+        Require all granted
+  </Directory>
+</VirtualHost>
