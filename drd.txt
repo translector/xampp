@@ -1,0 +1,10 @@
+<VirtualHost 127.0.0.1:80>
+  DocumentRoot "/opt/lampp/apps/drd/web"
+  DirectoryIndex index.php
+
+  <Directory "/opt/lampp/apps/drd/web">
+        Options All
+        AllowOverride All
+        Require all granted
+  </Directory>
+</VirtualHost>
