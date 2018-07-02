@@ -1,8 +1,8 @@
 <VirtualHost 127.0.0.9:80>
-  DocumentRoot "/opt/lampp/apps/dineno/index.html"
+  DocumentRoot "/opt/lampp/apps/diseno"
   DirectoryIndex index.php
 
-  <Directory "/opt/lampp/apps/diseno/index.html">
+  <Directory "/opt/lampp/apps/diseno">
         Options All
         AllowOverride All
         Require all granted
