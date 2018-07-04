@@ -1,5 +1,5 @@
 
-<VirtualHost 127.0.0.1.0:80>
+<VirtualHost 127.0.1.0:80>
   DocumentRoot "/opt/lampp/apps/realmedianetwork/docroot"
   DirectoryIndex index.php
 
