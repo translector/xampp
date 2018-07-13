@@ -1,8 +1,8 @@
 <VirtualHost 127.0.1.4:80>
-  DocumentRoot "/opt/lampp/apps/distri/web"
+  DocumentRoot "/opt/lampp/apps/distri/docroot"
   DirectoryIndex index.php
 
-  <Directory "/opt/lampp/apps/distri/web">
+  <Directory "/opt/lampp/apps/distri/docroot">
         Options All
         AllowOverride All
         Require all granted
