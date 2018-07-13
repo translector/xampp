@@ -1,0 +1,10 @@
+<VirtualHost 127.0.1.3:80>
+  DocumentRoot "/opt/lampp/apps/drupalcomposer/web"
+  DirectoryIndex index.php
+
+  <Directory "/opt/lampp/apps/drupalcomposer/web">
+        Options All
+        AllowOverride All
+        Require all granted
+  </Directory>
+</VirtualHost>
