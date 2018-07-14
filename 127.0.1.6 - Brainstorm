@@ -1,0 +1,11 @@
+
+<VirtualHost 127.0.1.6:80>
+  DocumentRoot "/opt/lampp/apps/brainstorm"
+  DirectoryIndex index.php
+
+  <Directory "/opt/lampp/apps/brainstorm">
+        Options All
+        AllowOverride All
+        Require all granted
+  </Directory>
+</VirtualHost>
