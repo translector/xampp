@@ -1,9 +1,9 @@
 
 <VirtualHost 127.0.1.0:80>
-  DocumentRoot "/opt/lampp/apps/realmedianetwork/docroot"
+  DocumentRoot "/opt/lampp/apps/real/docroot"
   DirectoryIndex index.php
 
-  <Directory "/opt/lampp/apps/realmedianetwork/docroot">
+  <Directory "/opt/lampp/apps/real/docroot">
         Options All
         AllowOverride All
         Require all granted
