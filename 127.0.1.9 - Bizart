@@ -1,0 +1,10 @@
+<VirtualHost 127.0.1.9:80>
+  DocumentRoot "/opt/lampp/apps/bizart"
+  DirectoryIndex index.php
+
+  <Directory "/opt/lampp/apps/bizart">
+        Options All
+        AllowOverride All
+        Require all granted
+  </Directory>
+</VirtualHost>
