@@ -1,9 +1,9 @@
 
 <VirtualHost 127.0.1.0:80>
-  DocumentRoot "/opt/lampp/apps/"
+  DocumentRoot "/opt/lampp/apps/ceramicaslican/website"
   DirectoryIndex index.php
 
-  <Directory "/opt/lampp/apps/">
+  <Directory "/opt/lampp/apps/ceramicaslican/website">
         Options All
         AllowOverride All
         Require all granted
