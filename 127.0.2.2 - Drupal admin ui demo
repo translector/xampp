@@ -1,0 +1,10 @@
+<VirtualHost 127.0.2.2:80>
+  DocumentRoot "/opt/lampp/apps/drupal-admin-ui-demo/docroot"
+  DirectoryIndex index.php
+
+  <Directory "/opt/lampp/apps/drupal-admin-ui-demo/docroot">
+        Options All
+        AllowOverride All
+        Require all granted
+  </Directory>
+</VirtualHost>
