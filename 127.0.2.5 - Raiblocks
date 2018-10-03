@@ -1,8 +1,8 @@
 <VirtualHost 127.0.2.5:80>
-  DocumentRoot "/opt/lampp/apps/DIR/html"
+  DocumentRoot "/opt/lampp/apps/raiblocks/docroot"
   DirectoryIndex index.php
 
-  <Directory "/opt/lampp/apps/DIR/html">
+  <Directory "/opt/lampp/apps/raiblocks/docroot">
         Options All
         AllowOverride All
         Require all granted
